@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -75,4 +76,83 @@
   }
   input[type="submit"]:hover {
     background-color: #45a049;
+=======
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.strip{
+  height: 28px;
+  background-color: #f2825c;
+}
+.logohead{
+  align-content: center;
+  height: 106px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+  .logo{
+    margin-top: 5px;
+    height: 95px;
+    width: 95px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rgpvLogo-Photoroom.png-Photoroom.png);
+  }
+  .logotext{
+    display: flex;
+    flex-direction: column;
+    width: 696px;
+    justify-content: center;
+  }
+  .h2{
+    width: 696px;
+    height: 30px;
+    font-size: 30px;
+  }
+  .h4{
+    font-size: 15px;
+  }
+  .navbar{
+    height: 55px;
+    background-color: #184852;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+>>>>>>> 89f33401a041fa90fae97a2224923103d01d7e7b
   }
