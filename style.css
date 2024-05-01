@@ -38,6 +38,9 @@
   }
   .navbar{
     height: 55px;
+    color: white;
+    padding-top: 9px;
+    text-align: center;
     background-color: #184852;
   }
   body {
