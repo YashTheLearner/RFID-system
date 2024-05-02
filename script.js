@@ -7,7 +7,7 @@ function validateForm() {
     // For simplicity, I'll just check if the username is 'admin' and password is 'password'
     if (username === 'admin' && password === 'password') {
       alert('Login successful!');
-      window.location.href = "https://docs.google.com/spreadsheets/d/1QoBrB1UERiGKCknzDyDFT01tJHPBsoHoFjJnAKXpwro/edit#gid=0"; // Redirect to Google.com
+      window.location.href = "https://docs.google.com/spreadsheets/d/1qPFE8hqEnFBP22zOAIC6wUG2pf8DS2ZLAmW6AePjlBs/edit#gid=0"; // Redirect to Google.com
       return false; // Prevent default form submission
     } else {
       alert('Invalid username or password. Please try again.');
